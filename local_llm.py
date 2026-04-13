@@ -7,7 +7,7 @@ import requests
 
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL = "llama3.1:8b"
+MODEL = "llama3.2:1b"
 
 
 def chat(messages, model=MODEL, url=OLLAMA_URL, temperature=0):
